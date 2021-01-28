@@ -24,7 +24,6 @@ export class HomeComponent implements OnInit {
       active: this.clickCounter > 4,
       notactive: this.clickCounter <= 4,
     }
-    return myClasses;
   }
 
 }

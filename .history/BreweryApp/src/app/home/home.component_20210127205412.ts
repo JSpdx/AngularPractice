@@ -9,7 +9,7 @@ import { empty } from 'rxjs';
 export class HomeComponent implements OnInit {
 
   clickCounter: number = 0;
-  name: string = 'hey';
+  name: string = '';
   constructor() { }
 
   ngOnInit(): void {
